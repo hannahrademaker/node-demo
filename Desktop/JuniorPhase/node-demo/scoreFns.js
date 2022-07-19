@@ -7,6 +7,6 @@ const computeAverage = (scores) => {
 
 console.log(computeAverage([78, 82, 97]));
 
-module.exports {
+module.exports = {
     computeAverage
-}
+};

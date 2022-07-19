@@ -10,6 +10,6 @@ fs.readFile('class1.txt', (err, data)=>{
         console.log(err)
     }
     else {
-        console.log(data)
+        console.log(data.toString().split('\n'))
     }
 })
